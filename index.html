@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio BEVIS-SURPRISE Thomas</title>
+    
+    <!-- Font import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+
+    <!-- Scripts -->
+    <script src="js/index_script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="nav_container">
+            <nav>
+                <p class="logo">Thomas B-S</p> 
+                <!-- Put logo instead of h1 -->
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Projets</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header_text">
+                <p>BEVIS-SURPRISE Thomas</p>
+                <h1>Gameplay programmer</h1>
+            </div>
+        </div>
+    </header>
+    <!-- About Section -->
+    <div id="about">
+        <div class="about_container">
+            <div class="row">
+                <div class="about_col_1">
+                    <img src="img/Profile_picture_about.JPG" alt="Thomas's profile picture">
+                </div>
+                <div class="about_col_2">
+                    <h1 class="about_title">À propos</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed dolor id ligula vulputate porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non mauris ut ligula sagittis porta. Donec nisl diam, elementum vel aliquet in, hendrerit in turpis. Sed ornare, ipsum vitae placerat cursus, enim orci tincidunt libero, eget aliquet est mi sit amet massa. Vestibulum imperdiet elit id vestibulum sagittis. Nulla et viverra libero. Donec ac pellentesque velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum dictum consectetur interdum. Nulla dictum, quam id ultricies lacinia, purus nulla pellentesque felis, feugiat imperdiet turpis orci vel mauris. Nulla maximus, dui quis facilisis porta, est mi volutpat arcu, quis iaculis mi lacus at leo.</p>
+
+                    <div class="tab_title">
+                        <p class="tab_link active_link" onclick="opentab('skills')">Compétences</p>
+                        <!-- <p class="tab_link">Expériences pro</p> -->
+                        <p class="tab_link" onclick="opentab('education')">Formation</p>
+                    </div>
+                    <div class="tab_contents active_tab" id="skills">
+                        <ul>
+                            <li><span>Godot</span><br/>Jeu vidéo 2D</li>
+                            <li><span>Unity</span><br/>Jeu vidéo 2D/3D</li>
+                            <li><span>C# / Java</span><br/>Programmation Orienté Objet</li>
+                            <li><span>HTML / Javascript / PHP</span><br/>Conception de site internet</li>
+                            <li><span>CSS</span><br/>Mise en forme de site internet</li>
+                        </ul>
+                    </div>
+                    <!-- <div class="tab_contents">
+                        <ul>
+                            <li><span>Godot</span><br/>Jeu vidéo 2D</li>
+                            <li><span>Unity</span><br/>Jeu vidéo 2D/3D</li>
+                            <li><span>C# / Java</span><br/>Programmation Orienté Objet</li>
+                            <li><span>HTML / Javascript / PHP</span><br/>Conception de site internet</li>
+                            <li><span>CSS</span><br/>Mise en forme de site internet</li>
+                        </ul>
+                    </div> -->
+                    <div class="tab_contents" id="education">
+                        <ul>
+                            <li><span>Septembre 2022 - Juillet 2027</span><br/>Mastère Game Design & Programming</li>
+                            <li><span>2022</span><br/>DUT Métiers du Multimédia et de l'Internet</li>
+                            <li><span>2020</span><br/>Baccalauréat Scientifique Science de l'Ingénieur</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact">
+        <h1>Pour me joindre</h1>
+        <div class="contact_desc">
+            <p>Vous pouvez m'envoyer un message ici : <a href="mailto:bevissurprise.thomas@gmail.com">bevissurprise.thomas@gmail.com</a>. J'essayerai de vous répondre le plus rapidement que possible. <br/> Sinon vous pouvez aussi me retrouver sur mes réseaux sociaux: </p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Tout droit réservés © 2023 BEVIS-SURPRISE Thomas</p>
+    </footer>
+    
+</body>
+</html>
