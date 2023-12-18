@@ -14,3 +14,4 @@ function opentab(pTabName)
     event.currentTarget.classList.add("active_link");
     document.getElementById(pTabName).classList.add("active_tab");
 }
+
