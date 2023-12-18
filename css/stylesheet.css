@@ -159,7 +159,7 @@ nav ul li a:hover::after
     transition: 0.5s;
 }
 
-.tab_link.active_link::after
+.tab_link.active_link_about::after
 {
     width: 50%;
 }
@@ -181,7 +181,7 @@ nav ul li a:hover::after
     display: none;
 }
 
-.tab_contents.active_tab
+.tab_contents.active_tab_about
 {
     display: block;
 }
