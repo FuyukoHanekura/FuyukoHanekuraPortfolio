@@ -22,14 +22,6 @@ header
     background-position: center;
     */
 }
-
-.fixed-nav {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    background-color: #080808a7; /* Add a background color for the fixed nav if needed */
-}
-
 .nav_container
 {
     padding : 10px 10%;
@@ -38,10 +30,16 @@ header
 
 nav
 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000a3; 
+    z-index: 1000; 
+    padding: 10px 10%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    align-items: center;
 }
 
 
