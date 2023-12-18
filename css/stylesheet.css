@@ -22,6 +22,14 @@ header
     background-position: center;
     */
 }
+
+.fixed-nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #080808a7; /* Add a background color for the fixed nav if needed */
+}
+
 .nav_container
 {
     padding : 10px 10%;

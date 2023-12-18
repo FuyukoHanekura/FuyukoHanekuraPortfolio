@@ -14,3 +14,17 @@ function opentab(pTabName)
     event.currentTarget.classList.add("active_link");
     document.getElementById(pTabName).classList.add("active_tab");
 }
+
+window.onscroll = function() {
+    // Get the navigation bar element
+    var navBar = document.querySelector('nav');
+
+    // Check if the user has scrolled beyond the header
+    if (window.scrollY > document.querySelector('header').offsetHeight) {
+        // If yes, add the fixed-nav class
+        navBar.classList.add('fixed-nav');
+    } else {
+        // If no, remove the fixed-nav class
+        navBar.classList.remove('fixed-nav');
+    }
+};
