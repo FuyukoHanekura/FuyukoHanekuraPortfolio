@@ -220,6 +220,21 @@ nav ul li a:hover::after
     
 }
 
+.project_list .project_one_bg
+{
+    background-image: url("../img/RUSH.png");
+}
+
+.project_list .project_two_bg
+{
+    background-image: url("../img/code_breaker.png");
+}
+
+.project_list .project_three_bg
+{
+    background-image: url("../img/Sokoban.png");
+}
+
 .project_list .project_four_bg
 {
     background-image: url("../img/Encom_PoD.icon.png");
