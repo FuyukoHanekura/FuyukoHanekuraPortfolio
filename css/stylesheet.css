@@ -285,6 +285,34 @@ nav ul li a:hover::after
     border-radius: 5px;
 }
 
+.unity_tag
+{
+    background-color: #797979;
+    padding: 1px 3px;
+    border-radius: 5px;
+}
+
+.js_tag
+{
+    background-color: #b1a123;
+    padding: 1px 3px;
+    border-radius: 5px;
+}
+
+.isart_tag
+{
+    background-color: #101420;
+    padding: 1px 3px;
+    border-radius: 5px;
+}
+
+.personal_tag
+{
+    background-color: #009ee0;
+    padding: 1px 3px;
+    border-radius: 5px;
+}
+
 /* .project_list div:hover::before
 {
     opacity: 1;
