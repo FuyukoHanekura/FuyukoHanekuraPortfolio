@@ -21,12 +21,14 @@
         <div class="nav_container">
             <nav id="navbar"> <!-- Added an ID for the navbar -->
                 <p class="logo">Thomas B-S</p>
-                <ul>
+                <ul id="sidemenu">
                     <li><a href="#">Accueil</a></li>
                     <li><a href="#About">À propos</a></li>
                     <li><a href="#Projects">Projets</a></li>
                     <li><a href="#Contact">Contact</a></li>
+                    <span class="closenav navico" onclick="closemenu()">✖</span>
                 </ul>
+                <span class="burgernav navico" onclick="openmenu()">☰</span>
             </nav>
             <div class="header_text">
                 <p>BEVIS-SURPRISE Thomas</p>
@@ -135,5 +137,19 @@
         <p>Tout droit réservés © 2023 BEVIS-SURPRISE Thomas</p>
     </footer>
     
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+function openmenu()
+{
+    sidemenu.style.right = "0px";
+}
+
+function closemenu()
+{
+    sidemenu.style.right = "-200px";
+}
+</script>
+
 </body>
 </html>
