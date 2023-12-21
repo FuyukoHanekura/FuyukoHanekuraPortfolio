@@ -21,12 +21,14 @@
         <div class="nav_container">
             <nav id="navbar"> <!-- Added an ID for the navbar -->
                 <p class="logo">Thomas B-S</p>
-                <ul>
+                <ul id="sidemenu">
                     <li><a href="#">Accueil</a></li>
                     <li><a href="#About">À propos</a></li>
                     <li><a href="#Projects">Projets</a></li>
                     <li><a href="#Contact">Contact</a></li>
+                    <span class="closenav navico" onclick="closemenu()">✖</span>
                 </ul>
+                <span class="burgernav navico" onclick="openmenu()">☰</span>
             </nav>
             <div class="header_text">
                 <p>BEVIS-SURPRISE Thomas</p>
@@ -43,7 +45,9 @@
                 </div>
                 <div class="about_col_2">
                     <h1 class="about_title" id="About">À propos</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed dolor id ligula vulputate porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non mauris ut ligula sagittis porta. Donec nisl diam, elementum vel aliquet in, hendrerit in turpis. Sed ornare, ipsum vitae placerat cursus, enim orci tincidunt libero, eget aliquet est mi sit amet massa. Vestibulum imperdiet elit id vestibulum sagittis. Nulla et viverra libero. Donec ac pellentesque velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum dictum consectetur interdum. Nulla dictum, quam id ultricies lacinia, purus nulla pellentesque felis, feugiat imperdiet turpis orci vel mauris. Nulla maximus, dui quis facilisis porta, est mi volutpat arcu, quis iaculis mi lacus at leo.</p>
+                    <p>Bonjour, Je suis Thomas, étudiant en Gameplay programming à ISART Digital. Je suis diplomé d'un DUT en Métier du Multimédia et de l'Internet. <br>
+                    Ici vous pourrez voir les projets sur lesquelles j'ai travaillé, qu'ils soient personnels ou professionnelles. Je suis quelqu'un d'assez motivé et curieux, qui aime découvrir et apprendre de nouvelles choses.  C'est notamment cette curiosité qui m'a amené à apprendre les languages de programmations et à faire du montage photo ou vidéo voir du motion design.
+                    </p>
 
                     <div class="tab_title">
                         <p class="tab_link active_link_about" onclick="opentab('skills')">Compétences</p>
@@ -133,5 +137,19 @@
         <p>Tout droit réservés © 2023 BEVIS-SURPRISE Thomas</p>
     </footer>
     
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+function openmenu()
+{
+    sidemenu.style.right = "0px";
+}
+
+function closemenu()
+{
+    sidemenu.style.right = "-200px";
+}
+</script>
+
 </body>
 </html>
