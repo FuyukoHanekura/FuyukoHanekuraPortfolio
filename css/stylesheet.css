@@ -17,7 +17,7 @@ header
 {
     width: 100%;
     height: 100vh;
-    background-image: url("../img/index_img/header_bg_01.png");
+    background-image: url("../img/index_img/header_bg_02.png");
     background-size: cover;
     background-position: center;
 }
@@ -244,6 +244,12 @@ nav ul li a:hover::after
 .project_list .project_four_bg
 {
     background-image: url("../img/Encom_PoD.icon.png");
+}
+
+.project_list .project_five_bg
+{
+    background-image: url("../img/Orenda.png");
+    background-position:  -35px -50px;
 }
 
 .project_list div h2
