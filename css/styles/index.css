@@ -1,96 +1,14 @@
-*
-{
-    margin :0;
-    padding: 0;
-    font-family: 'Noto Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
-}
-
-body
-{
-        background:  #080808;
-        color: #e9e9e9;
-}
-
-header
-{
-    width: 100%;
-    height: 100vh;
-    background-image: url("../img/index_img/header_bg_02.png");
-    background-size: cover;
-    background-position: center;
-}
-.nav_container
-{
-    padding : 10px 10%;
-
-}
-
-nav
-{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #000000a3; 
-    z-index: 1000; 
-    padding: 10px 10%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-.logo
-{
-    width: 140px;
-    font-size: 24px;
-}
-
-nav ul li
-{
-    display: inline-block;
-    list-style: none;
-    margin: 10px 20px;
-
-}
-
-nav ul li a
-{
-    color: #e9e9e9;
-    text-decoration: none;
-    font-size: 18px;
-    position: relative;
-}
-
-nav ul li a::after
-{
-    content: '';
-    width: 0;
-    height: 3px;
-    background: #009ee0;
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    transition: 0.5s;
-}
-
-nav ul li a:hover::after
-{
-    width: 100%;
-}
 
 .header_text
 {
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: 30px;
 }
 
 .header_text h1
 {
     font-size: 60px;
-    margin-top: 20px;
+    margin-top: 1.5rem;
 }
 
 /* About section */
@@ -241,27 +159,27 @@ nav ul li a:hover::after
 
 .project_list .project_one_bg
 {
-    background-image: url("../img/RUSH.png");
+    background-image: url("/img/RUSH.png");
 }
 
 .project_list .project_two_bg
 {
-    background-image: url("../img/code_breaker.png");
+    background-image: url("/img/code_breaker.png");
 }
 
 .project_list .project_three_bg
 {
-    background-image: url("../img/Sokoban.png");
+    background-image: url("/img/Sokoban.png");
 }
 
 .project_list .project_four_bg
 {
-    background-image: url("../img/Encom.png");
+    background-image: url("/img/Encom.png");
 }
 
 .project_list .project_five_bg
 {
-    background-image: url("../img/Orenda.png");
+    background-image: url("/img/Orenda.png");
     /* background-position:  -35px -50px; */
 }
 
@@ -400,7 +318,7 @@ nav .navico
 {
     .header_text
     {
-        margin-top: 75%;
+        margin-top: 25%;
     }    
 
     nav .navico
