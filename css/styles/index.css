@@ -1,6 +1,6 @@
 header
 {
-    background-image: url("/img/index_img/header_bg_02.png");
+    background-image: url("../../img/index_img/header_bg_02.png");
 }
 .header_text
 {
@@ -177,12 +177,12 @@ header
 
 .project_list .project_four_bg
 {
-    background-image: url("../../img/Encom.png");
+    background-image: url("../../img/EncomV2.png");
 }
 
 .project_list .project_five_bg
 {
-    background-image: url("../../img/Orenda.png");
+    background-image: url("../../img/OrendaV2.png");
     /* background-position:  -35px -50px; */
 }
 
