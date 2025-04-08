@@ -1,0 +1,57 @@
+#orenda
+{
+    background-image: url("/img/project/OrendaBannerV2.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.column
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100%;
+    gap: 20px;
+    float:left;
+    width: 33.33%;
+    padding: 1% 1%;
+}
+.middle
+{
+    text-align: center;
+    /* border-left: 5px solid #e9e9e9; */
+    /* border-right: 5px solid #e9e9e9; */
+    /* height: 60vh; */
+}
+.row::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+h1
+{
+    font-size: 2.5em;
+
+}
+li
+{
+    font-size: 1.5em;
+    list-style: none;
+    text-align: center;
+}
+.red
+{
+    background-color: red;
+    height: auto;
+}
+.green
+{
+    background-color: green;
+    /* height: 300px; */
+}
+.blue
+{
+    background-color: blue;
+    /* height: 300px; */
+}
