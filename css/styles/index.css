@@ -1,4 +1,7 @@
-
+header
+{
+    background-image: url("/img/index_img/header_bg_02.png");
+}
 .header_text
 {
     margin-top: 10%;
@@ -297,14 +300,6 @@
 .contact_desc a:visited
 {
     color:#009ee0;
-}
-
-/* Footers */
-
-footer
-{
-    padding: 10px;
-    text-align: center;
 }
 
 /* For Medium Mobile */
