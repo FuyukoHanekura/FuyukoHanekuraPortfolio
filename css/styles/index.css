@@ -1,6 +1,6 @@
 header
 {
-    background-image: url("../img/index_img/header_bg_02.png");
+    background-image: url("/img/index_img/header_bg_02.png");
 }
 .header_text
 {
@@ -162,27 +162,27 @@ header
 
 .project_list .project_one_bg
 {
-    background-image: url("../img/RUSH.png");
+    background-image: url("/img/RUSH.png");
 }
 
 .project_list .project_two_bg
 {
-    background-image: url("../img/code_breaker.png");
+    background-image: url("/img/code_breaker.png");
 }
 
 .project_list .project_three_bg
 {
-    background-image: url("../img/Sokoban.png");
+    background-image: url("/img/Sokoban.png");
 }
 
 .project_list .project_four_bg
 {
-    background-image: url("../img/Encom.png");
+    background-image: url("/img/Encom.png");
 }
 
 .project_list .project_five_bg
 {
-    background-image: url("../img/Orenda.png");
+    background-image: url("/img/Orenda.png");
     /* background-position:  -35px -50px; */
 }
 
