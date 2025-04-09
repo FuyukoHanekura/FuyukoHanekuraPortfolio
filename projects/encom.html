@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio BEVIS-SURPRISE Thomas</title>
+        <link rel="icon" type="image/x-icon" href="../img/Jillportrait2.png">
+        
+        <!-- Font import -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/styles/projects.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    
+        <!-- Scripts -->
+        <script src="../js/index_script.js"></script>
+    </head>
+<body>
+    <header id="orenda">
+        <div class="nav_container">
+            <nav id="navbar"> <!-- Added an ID for the navbar -->
+                <p class="logo">Thomas B-S</p>
+                <ul id="sidemenu">
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="#About">À propos</a></li>
+                    <li><a href="#Projects">Projets</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="img/cv/CV_BEVIS-SURPRISE_Thomas.pdf" target="_blank" rel="noreferrer noopener">CV</a></li>
+                    <span class="closenav navico" onclick="closemenu()">✖</span>
+                </ul>
+                <span class="burgernav navico" onclick="openmenu()">☰</span>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="row">
+            <div class="column">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/STVcCPM8MGg?si=ovcE60T6n35Fww1F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe frameborder="0" src="https://itch.io/embed/1919873?bg_color=0f0f0f&amp;fg_color=e9e9e9&amp;link_color=0073cc" width="552" height="167"><a href="https://fuyuko-hanekura.itch.io/encom-pixel-of-deception">Encom Pixel of Deception by Fuyuko Hanekura</a></iframe>
+            </div>
+            <div class="column middle">
+                <h1>Missions</h1>
+                <ul class="list-weight">
+                    <li>UI/UX</li>
+                    <li>Level Design</li>
+                    <li>Game Design/Juiciness</li>
+                    <li>Sound implementation</li>
+                </ul>
+            </div>
+            <div class="column"></div>
+        </div>
+    </main>
+    <footer>
+        <p>Tout droit réservés © 2023-2025 BEVIS-SURPRISE Thomas</p>
+    </footer>
+    
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu()
+    {
+        sidemenu.style.right = "0px";
+    }
+    
+    function closemenu()
+    {
+        sidemenu.style.right = "-200px";
+    }
+    </script>
+
+</body>
+</html>
