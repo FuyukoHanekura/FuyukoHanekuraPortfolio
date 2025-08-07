@@ -4,6 +4,11 @@
     background-repeat: no-repeat;
     background-size:contain;
 }
+.row
+{
+    display: flex;
+    justify-content: space-between;
+}
 .column
 {
     display: flex;
@@ -13,8 +18,9 @@
     height: 100%;
     gap: 20px;
     float:left;
-    width: 33.33%;
+    /* width: 33.33%; */
     padding: 1% 1%;
+    /* margin: 0% %; */
 }
 .middle
 {
@@ -23,12 +29,12 @@
     /* border-right: 5px solid #e9e9e9; */
     /* height: 60vh; */
 }
-.row::after
+/* .row::after
 {
     content: "";
     display: table;
     clear: both;
-}
+} */
 h1
 {
     font-size: 2.5em;
